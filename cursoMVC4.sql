@@ -2,7 +2,7 @@ create database bd_escuelass
 go
 
 use bd_escuelaasd
-go
+gofghgf
 
 create table cargo
 (
