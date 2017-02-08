@@ -2,7 +2,7 @@ CREATE TABLE ddl_log sdfds(PostTime datetime, DB_User nvarchar(100), Event nvarc
 GO
 
 CREATE TRIGGER dg 
-ON DATABASE 
+ON DATABASE fghgfh
 FOR DDL_DATABASE_LEVEL_EVENTS 
 AS
 DECLARE @data XML

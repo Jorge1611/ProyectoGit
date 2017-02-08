@@ -7,7 +7,7 @@ go
 create table cargo
 (
 car_cod int not null primary key,
-car_des varchar(50) not null
+car_des varchar(50) not nullgfhfgh
 )
 go
 
