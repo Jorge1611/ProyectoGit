@@ -1,7 +1,7 @@
 create database bd_escuela
 go
 
-use bd_escuela
+use bd_escuelachfg
 go
 
 create table cargo
