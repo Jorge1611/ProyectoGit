@@ -1,13 +1,7 @@
 create database bd_escuelass
 go
 
-<<<<<<< HEAD
-use bd_escuelaasd
-gofghgf
-=======
-use bd_escuelachfg
-go
->>>>>>> Prueba
+
 
 create table cargo
 (
@@ -34,3 +28,5 @@ insert into usuario(usu_cod,usu_nom,car_cod) values (3,'Jorge',3)
 select*from cargo
 
 create table jorge(id int)
+
+create table mario(id int)

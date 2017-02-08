@@ -30,3 +30,5 @@ SELECT * FROM ddl_log ;
 GO
 
 create table jorge(id int)
+
+create table mario(id int)
