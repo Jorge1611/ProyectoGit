@@ -1,4 +1,4 @@
-create database bd_escuela
+create database bd_escuelass
 go
 
 use bd_escuela
