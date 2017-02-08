@@ -1,8 +1,12 @@
+<<<<<<< HEAD
 CREATE TABLE ddl_logdfgdf (PostTime datetime, DB_User nvarchar(100), Event nvarchar(100), TSQL nvarchar(2000));
+=======
+CREATE TABLE ddl_log sdfds(PostTime datetime, DB_User nvarchar(100), Event nvarchar(100), TSQL nvarchar(2000));
+>>>>>>> Prueba
 GO
 
 CREATE TRIGGER dg 
-ON DATABASE 
+ON DATABASE fghgfh
 FOR DDL_DATABASE_LEVEL_EVENTS 
 AS
 DECLARE @data XML
@@ -24,3 +28,5 @@ DROP TABLE TestTable ;
 GO
 SELECT * FROM ddl_log ;
 GO
+
+create table jorge(id int)

@@ -1,13 +1,18 @@
 create database bd_escuelass
 go
 
+<<<<<<< HEAD
 use bd_escuelaasd
 gofghgf
+=======
+use bd_escuelachfg
+go
+>>>>>>> Prueba
 
 create table cargo
 (
 car_cod int not null primary key,
-car_des varchar(50) not null
+car_des varchar(50) not nullgfhfgh
 )
 go
 
@@ -27,3 +32,5 @@ insert into usuario(usu_cod,usu_nom,car_cod) values (1,'Luthien',1)
 insert into usuario(usu_cod,usu_nom,car_cod) values (2,'Beren',2)
 insert into usuario(usu_cod,usu_nom,car_cod) values (3,'Jorge',3)
 select*from cargo
+
+create table jorge(id int)
